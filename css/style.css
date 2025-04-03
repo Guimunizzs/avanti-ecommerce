@@ -119,3 +119,12 @@ body {
   font-size: 20px;
   padding-bottom: 10px;
 }
+
+/* Estilo da barra de categorias */
+.category-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
