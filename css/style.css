@@ -128,3 +128,13 @@ body {
   justify-content: space-around;
   gap: 15px;
 }
+
+/* Estilo do botão */
+.category-btn {
+  background-color: #f8f8f8;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+}
