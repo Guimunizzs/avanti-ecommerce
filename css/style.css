@@ -169,3 +169,23 @@ body {
 .category-bar:hover .dropdown-menu {
   display: flex;
 }
+
+/* Esconde o submenu por padrão */
+.departamento .categorias {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #fff;
+  min-width: 600px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 101;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+/* Agora o submenu só aparece quando o mouse estiver exatamente sobre "Departamento 1" */
+.departamento:hover .categorias {
+  display: flex;
+}
