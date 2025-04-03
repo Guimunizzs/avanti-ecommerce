@@ -22,3 +22,60 @@ body {
   line-height: 22px;
   font-style: italic;
 }
+
+/* Cabeçalho principal */
+.main-nav {
+  width: 100%;
+  padding: 0px 15px 0px 15px;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.search-bar img {
+  width: 10%;
+}
+
+.search {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+#search-input {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#search-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
