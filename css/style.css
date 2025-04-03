@@ -189,3 +189,36 @@ body {
 .departamento:hover .categorias {
   display: flex;
 }
+/* Estilo das colunas de categorias */
+.categorias .coluna {
+  width: 33%;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #ddd;
+}
+
+.categorias .coluna:last-child {
+  border-right: none;
+}
+
+.categorias .coluna h3 {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.categorias .coluna ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.categorias .coluna ul li {
+  color: #555;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.categorias .coluna ul li:hover {
+  color: #000;
+  font-weight: bold;
+}
