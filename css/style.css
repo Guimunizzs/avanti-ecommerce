@@ -627,3 +627,28 @@ h5 {
   width: 20px;
   height: auto;
 }
+
+.footer-bottom {
+  width: 100%;
+}
+
+.container-footer-bottom {
+  max-width: 900px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 20px;
+}
+
+.footer-bottom-selos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer-bottom .logo-avanti {
+  width: 30%;
+}
