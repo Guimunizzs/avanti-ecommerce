@@ -367,3 +367,25 @@ body {
 .buy-button:hover {
   background: darkblue;
 }
+
+/* Descrição */
+.description {
+  display: flex;
+  max-width: 950px;
+  margin: 15px auto;
+}
+
+.description .description-img {
+  background-color: #c2c2c2;
+}
+
+.description img {
+  max-width: 523px;
+}
+
+.description .description-info {
+  padding: 50px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
