@@ -614,3 +614,16 @@ h5 {
   font-size: 14px;
   color: blue;
 }
+
+.footer-middle {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-middle img {
+  width: 20px;
+  height: auto;
+}
