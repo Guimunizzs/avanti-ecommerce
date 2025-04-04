@@ -389,3 +389,40 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+
+.description2 {
+  background-color: #dedede;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.container-description2 {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.description2 .description-info2 {
+  max-width: 476px;
+  padding: 60px 40px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.description2 .description-info2 div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.description2 .description-info2 .localizacao {
+  width: 50px;
+  height: 50px;
+}
+
+.description2 img {
+  max-width: 652px;
+}
