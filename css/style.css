@@ -886,3 +886,9 @@ h5 {
     display: block;
   }
 }
+
+@media (min-width: 768px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
