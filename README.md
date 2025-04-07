@@ -4,15 +4,13 @@ Loja virtual fictícia desenvolvida como projeto para praticar HTML, CSS, JavaSc
 
 ## 🌐 Demonstração
 
-[👉 Clique aqui para acessar o site](https://seu-usuario.github.io/avanti-store)  
-_(Altere esse link para o link real do GitHub Pages ou Vercel)_
+[👉 Clique aqui para acessar o site](https://avanti-ecommerce-pied.vercel.app/)  
 
 ---
 
 ## 📸 Prévia do Projeto
 
 ![Avanti Store Screenshot](./assets/preview.jpg)  
-_(Adicione uma imagem do seu projeto para visualização rápida)_
 
 ---
 
