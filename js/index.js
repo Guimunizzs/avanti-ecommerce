@@ -24,3 +24,15 @@ hamburgerMenu.addEventListener("click", () => {
 closeMenu.addEventListener("click", () => {
   mobileMenu.style.transform = "translateX(-100%)"; // Fecha o menu
 });
+
+$(document).ready(function () {
+  $(".product-carousel").slick({
+    infinite: true, // Carrossel infinito
+    slidesToShow: 1, // Exibe 1 card por vez
+    slidesToScroll: 1, // Passa 1 card por vez
+    arrows: true, // Habilita as setas de navegação
+    dots: true, // Habilita os pontos de navegação
+    autoplay: true, // Ativa o autoplay
+    autoplaySpeed: 3000, // Define o tempo de troca de slide (3 segundos)
+  });
+});
