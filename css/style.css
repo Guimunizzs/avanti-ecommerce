@@ -892,3 +892,70 @@ h5 {
     display: none;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .search-bar img {
+    width: 16%;
+  }
+
+  .description-sale .super-sale {
+    font-size: 80px;
+  }
+
+  .description-sale .super-sale span {
+    font-size: 80px;
+  }
+
+  .description-sale .itens-selections {
+    font-size: 22px;
+  }
+
+  .description-sale .desconto {
+    font-size: 42px;
+  }
+
+  .description {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .description img {
+    max-width: 100%;
+  }
+
+  .description2 img {
+    max-width: 100%;
+  }
+
+  .container-description2 {
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+  }
+
+  .newsletter {
+    height: auto;
+  }
+  .newsletter .cadastre-se {
+    flex-wrap: wrap;
+    gap: 20px;
+    height: auto;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-links {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .search-bar img {
+    width: 20%;
+  }
+}
